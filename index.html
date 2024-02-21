@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Hamburgueria Delícia</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <script src="assets/js/bootstrap.bundle.js"></script>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa;
+            padding-top: 56px;
+        }
+
+        nav {
+            background-color: #920000;
+        }
+
+        nav a {
+            color: #ffffff;
+        }
+
+        header {
+            text-align: center;
+            padding: 80px 0;
+            background-color: #920000;
+            color: #ffffff;
+        }
+
+        section {
+            padding: 60px 0;
+        }
+
+        .carousel-inner img {
+            width: 100%;
+            height: 100%; 
+        }
+
+        footer {
+            background-color: #920000;
+            color: #ffffff;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <a class="navbar-brand" href="#">Hamburgueria Delícia</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+            aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto space">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link colooor" href="#menu">Cardápio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link colooor" href="#about">Sobre Nós</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#gallery">Galeria</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">Contato</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<header>
+    <h1>Bem-vindo à Hamburgueria Delícia</h1>
+    <p>Sabor autêntico em cada mordida</p>
+</header>
+
+
+<section id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <h2>Sobre Nós</h2>
+                <p>Bem-vindo à Hamburgueria Delícia, onde cada hambúrguer é uma experiência única e saborosa. Nosso compromisso é oferecer aos nossos clientes os melhores ingredientes, preparados com paixão e dedicação.</p>
+                <p>Nossos chefs são especialistas em criar combinações irresistíveis que agradam a todos os paladares. Utilizamos ingredientes frescos e de alta qualidade para garantir que cada mordida seja uma explosão de sabores.</p>
+            </div>
+            <div class="col-lg-6">
+                <img src="assets/img/INTERIOR.jpg" alt="Interior da Hamburgueria" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</section>
+<section id="menu">
+    <div class="container">
+        <h2>Cardápio</h2>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                    <img src="assets/img/petisico.webp">
+                    <h4>petisco</h4>
+                    <P>hamburguer,blend de picanha 180g, salada, queijo, presunto, molho especial.</P>
+                </div>
+                <div class="card">
+                    <img src="assets/img/petisico.webp">
+                    <h4>petisco</h4>
+                    <P>hamburguer,blend de picanha 180g, salada, queijo, presunto, molho especial.</P>
+                </div>
+                <div class="card">
+                    <img src="assets/img/petisico.webp">
+                    <h4>petisco</h4>
+                    <P>hamburguer,blend de picanha 180g, salada, queijo, presunto, molho especial.</P>
+                </div>
+                <div class="card">
+                    <img src="assets/img/petisico.webp">
+                    <h4>Petisco</h4>
+                    <P>hamburguer,blend de picanha 180g, salada, queijo, presunto, molho especial.</P>
+                </div>
+            </div>            
+        </div>
+    </div>
+</section>
+
+<section>
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets/img/H2CAROUS.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/hcarous.jpeg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/H2CAROUS.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+</section>
+<footer>
+    <div class="container">
+        <p>&copy; 2024 Hamburgueria Delícia. Todos os direitos reservados.</p>
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
